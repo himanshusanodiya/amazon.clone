@@ -1,0 +1,351 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+body{
+    background-color: #c6c3c3;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color:white;
+    display:flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    background-image: url(amazon_logo.png);
+    height: 57px;
+    width: 115px;
+    background-size: cover;
+    transition: none;
+}
+.nav-logo:hover{
+    border: 1px solid white;
+}
+
+.add-deliver{
+   color:#cccccc;
+   font-size:0.80rem;
+   position: relative;
+   left: 15px;
+}
+
+.add-india{
+    font-size: 1rem;
+    position: relative;
+    left: 5px;
+}
+
+.add-icon{
+    display: flex;
+}
+
+.nav-address{
+    margin-top: 10px;
+}
+
+/* navbar search */
+.nav-search{
+    display: flex;
+    align-items: center;
+}
+
+/* search select option  */
+.search-select{
+    margin-left:42px;
+    height: 40px;
+    width: 50px;
+    background-color:#fcfcfced;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+    border: none;
+}
+/* search-bar */
+
+.search-bar{
+    height: 37.6px;
+    width:550px;
+    font-size: 1rem;
+}
+/* search icon */
+.search-icon{
+    position: relative;
+    right:2px;
+    background-color: rgb(234, 182, 11);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    border-top-right-radius:3px;
+    border-bottom-right-radius:3px;
+    border:none;
+    font-size:1.5rem;
+    color: #0f1111;
+}
+.nav-search:hover{
+    border: 2px solid rgb(255, 162, 0);
+}
+
+/* nav-sign and account */
+.sign-account{
+    position: relative;
+    top:10px;
+}
+
+.nav-sign{
+    font-size: 0.8rem;
+}
+
+.nav-acc{
+    font-size:1rem;
+    font-weight: 800px;
+}
+
+.sign-account:hover{
+    border: 2px solid white;
+}
+/* nav-address hover */
+.nav-address:hover{
+    border:2px solid white;
+}
+
+/* navbar shopping icon */
+.nav-shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.3rem;
+}
+
+.nav-card{
+    margin-left:2.5px;
+    font-size: 0.9rem;
+    position: relative;
+    top:5px;
+    font-weight: 800px;
+}
+/* css for  navbar 2 */
+.navbar-2{
+    height: 40px;
+    background-color: #182130;
+    color:white;
+    display:flex;
+}
+
+.nav2-all{
+    margin-left: 4px;
+}
+.nav2-baricon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav2-minitv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+
+/* homepage background iampge  */
+.homepage-image{
+    background-image: url(3000x1200_V1._CB582435103_.jpg);
+    height: 400px;
+    background-size:cover;
+}
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1{
+    background-color: white;
+    height:380px;
+    width: 280px;
+    margin-top: 20px;
+    
+}
+.box1-img{
+    background-image: url(box5_image.jpg);
+    height: 250px;
+   background-size: cover;
+   position: relative;
+   top: 10px;
+   margin-top: 30px;
+   margin-left: 15px;
+   margin-right: 15px;
+}
+.see-more{
+    margin-top: 15px;
+    text-decoration: underline;
+    color: rgb(22, 180, 143);
+    margin-left: 15px;
+
+}
+h2{
+    margin-top:20px;
+    margin-left:15px;
+}
+
+.box2{
+    background-color: white;
+    height:380px;
+    width: 280px;
+    margin-top: 20px;
+}
+
+.box2-img{
+    background-image: url(box2_image.jpg);
+    height: 250px;
+   background-size: cover;
+   position: relative;
+   top: 10px;
+   margin-top: 30px;
+   margin-left: 15px;
+   margin-right: 15px;
+}
+
+.box3{
+    background-color: white;
+    height:380px;
+    width: 280px;
+    margin-top: 20px;
+}
+
+.box3-img{
+    background-image: url(box3_image.jpg);
+    height: 250px;
+   background-size: cover;
+   position: relative;
+   top: 10px;
+   margin-top: 30px;
+   margin-left: 15px;
+   margin-right: 15px;
+}
+
+.box4{
+    background-color: white;
+    height:380px;
+    width: 280px;
+    margin-top: 20px;
+}
+
+.box4-img{
+    background-image: url(box4_image.jpg);
+    height: 250px;
+   background-size: cover;
+   position: relative;
+   top: 10px;
+   margin-top: 30px;
+   margin-left: 15px;
+   margin-right: 15px;
+}
+/* shop section 2 */
+.shop-section2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box55{
+    background-color: white;
+    height:380px;
+    width: 280px;
+    margin-top: 20px;
+}
+
+.box55-img{
+    background-image: url(box55_image.jpg);
+    height: 250px;
+   background-size: cover;
+   position: relative;
+   top: 10px;
+   margin-top: 10px;
+   margin-left: 15px;
+   margin-right: 15px;
+}
+
+.box6{
+    background-color: white;
+    height:380px;
+    width: 280px;
+    margin-top: 20px;
+}
+
+.box6-img{
+    background-image: url(box6_image.jpg);
+    height: 250px;
+   background-size: cover;
+   position: relative;
+   top: 10px;
+   margin-top: 30px;
+   margin-left: 15px;
+   margin-right: 15px;
+}
+
+.box7{
+    background-color: white;
+    height:380px;
+    width: 280px;
+    margin-top: 20px;
+}
+.box7-img{
+    background-image: url(box7_image.jpg);
+    height: 250px;
+   background-size: cover;
+   position: relative;
+   top: 10px;
+   margin-top: 30px;
+   margin-left: 15px;
+   margin-right: 15px;
+}
+
+.box8{
+    background-color: white;
+    height:380px;
+    width: 280px;
+    margin-top: 20px;
+}
+
+.box8-img{
+    background-image: url(box8.image.jpg);
+    height: 220px;
+   background-size: cover;
+   position: relative;
+   top: 10px;
+   margin-top: 30px;
+   margin-left: 15px;
+   margin-right: 15px;
+}
+
+.shop-section2{
+    display: flex;
+    flex-direction: row;
+}
+
+.tap-to-back{
+    margin-top: 30px;
+    background-color: rgb(40, 63, 92);
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.header1{
+    height: 50vh;
+    background-color: #283349;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-items{
+    padding: 60px;
+}
+.about-us{
+    color:white;
+}
+.contact-us{
+    color:white;
+}
